@@ -1,8 +1,37 @@
 .gradient-custom {
-    background: radial-gradient(50% 123.47% at 50% 50%, #00ff94 0%, #720059 100%),
-      linear-gradient(121.28deg, #669600 0%, #ff0000 100%),
-      linear-gradient(360deg, #0029ff 0%, #8fff00 100%),
-      radial-gradient(100% 164.72% at 100% 100%, #6100ff 0%, #00ff57 100%),
-      radial-gradient(100% 148.07% at 0% 0%, #fff500 0%, #51d500 100%);
-    background-blend-mode: screen, color-dodge, overlay, difference, normal;
-  }
+  background: radial-gradient(50% 123.47% at 50% 50%, #00ff94 0%, #1f0319 100%),
+    linear-gradient(121.28deg, #669600 0%, #cc00ff 100%),
+    linear-gradient(360deg, #0029ff 0%, #8fff00 100%),
+    radial-gradient(100% 164.72% at 100% 100%, #6100ff 0%, #ff00b3 100%),
+    radial-gradient(100% 148.07% at 0% 0%, #0077ff 0%, #0004d5 100%);
+  background-blend-mode: screen, color-dodge, overlay, difference, normal;
+}
+
+.card{
+ display: flex;
+  align-content: center;
+  width: 100vh;
+  height: 100vh;
+}
+
+.box{
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+}
+
+.navigation{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.tasks{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+
